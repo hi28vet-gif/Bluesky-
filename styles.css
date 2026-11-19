@@ -1,0 +1,146 @@
+body {
+    background-color: #060b19;
+    color: #f4f7ff;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: #070d1f !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-brand .badge {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #cbd5e1 !important;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: #3b82f6 !important;
+}
+
+
+.hero-section {
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(122deg, transparent 56%, #1d63dc 56.2%, #2563eb 100%),
+        #050914;
+}
+
+.hero-section h1 {
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
+.hero-section .btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.hero-placeholder {
+    background-color: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    border-radius: 12px;
+}
+
+
+#catalog-search .form-control {
+    background-color: #0f172a;
+    border-color: #1e293b;
+    color: #f8fafc;
+}
+
+#catalog-search .form-control::placeholder {
+    color: #64748b;
+}
+
+.custom-select {
+    background-color: #0f172a;
+    border-color: #1e293b;
+    color: #e2e8f0;
+}
+
+.btn-group .btn-outline-secondary {
+    color: #cbd5e1;
+    border-color: #1e293b;
+    background-color: #0b1224;
+}
+
+.btn-group .btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: #172554;
+    border-color: #2563eb;
+}
+
+/* Карточки товаров */
+.card {
+    background-color: #0b1326;
+    border: 1px solid #172544;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 165px;
+    object-fit: cover;
+    background-color: #111c36;
+}
+
+.card .card-title {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+.card .card-text {
+    color: #94a3b8 !important;
+}
+
+.card .btn.rounded-circle {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 28px;
+    text-align: center;
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+
+.pagination .page-link {
+    background-color: #0b1326;
+    border-color: #172544;
+    color: #cbd5e1;
+    margin: 0 3px;
+    border-radius: 50% !important;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+}
+
+
+footer {
+    background-color: #070d1f !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
